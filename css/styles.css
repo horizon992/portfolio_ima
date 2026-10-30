@@ -1224,3 +1224,8 @@ main .work-info-row > span { font-size: 17px !important; line-height: 1.9; }
 
 /* Ensure both hero keywords render blue */
 .hero h1 em { color: #0099cc !important; }
+
+/* Hide the hero visual on mobile phones only. */
+@media (max-width: 560px) {
+  .hero-visual { display: none; }
+}
